@@ -1,0 +1,66 @@
+/* Apply Times New Roman font to the entire body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Card styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif; /* Ensures card text uses Times New Roman */
+}
+
+/* Card image styles */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+/* Card title styles */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Card text styles */
+.card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Nav link styles */
+.nav-link {
+    color: #000; /* Default color */
+}
+
+/* Nav link hover effect */
+.nav-link:hover {
+    background-color: #f8f9fa;
+    color: #000000;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+/* Add some spacing to the container */
+.container {
+    margin-top: 20px;
+}
+
+/* Ensure button spacing */
+.btn {
+    margin-right: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
